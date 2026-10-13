@@ -8,7 +8,9 @@ import 'package:flutter/material.dart';
 // import 'package:rpl2/sized_expanded_stack/SizedBoxWidget.dart';
 // import 'package:rpl2/sized_expanded_stack/ExpandedWidget.dart';
 // import 'package:rpl2/sized_expanded_stack/StackWidget.dart';
-import 'package:rpl2/sized_expanded_stack/LayoutTiga.dart';
+// import 'package:rpl2/sized_expanded_stack/LayoutTiga.dart';
+// import 'package:rpl2/list_grid_view/grid_basic.dart';
+import 'package:rpl2/list_grid_view/grid_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: const KartuDashboard(),
+        body: const GridBasic(),
       ),
     );
   }
