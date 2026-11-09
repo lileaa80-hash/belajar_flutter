@@ -8,7 +8,7 @@ import 'package:rpl2/row_column_widget/RowColumnWidget.dart';
 
 import 'package:rpl2/sized_expanded_stack/SizedBoxWidget.dart';
 import 'package:rpl2/sized_expanded_stack/ExpandedWidget.dart';
-import 'package:rpl2/sized_expanded_stack/StackWidget.dart';
+import 'package:rpl2/sized_expanded_stack/stack_widget.dart';
 import 'package:rpl2/sized_expanded_stack/LayoutSatu.dart';
 import 'package:rpl2/sized_expanded_stack/LayoutDua.dart';
 import 'package:rpl2/sized_expanded_stack/LayoutTiga.dart';
@@ -37,11 +37,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "Flutter Pertamaku",
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
-      routes: AppRoutes.routes,
+      // Ubah dari BerandaInstagram() menjadi HomePage()
+      home: BerandaInstagram(), 
     );
   }
 }
